@@ -16,6 +16,7 @@ import com.example.opengldemo.util.TextResourceReader;
 import static android.opengl.GLES20.glUseProgram;
 
 abstract class ShaderProgram {
+    protected static final String U_COLOR = "u_Color";
     // Uniform constants
     protected static final String U_MATRIX = "u_Matrix";
     protected static final String U_TEXTURE_UNIT = "u_TextureUnit";
